@@ -1,10 +1,14 @@
-start nginx
+start nginx 启动nginx
 
-redis-server redis.windows.conf
+redis-server redis.windows.conf  启动redis
 
 nvm list 查看当前所有的node版本
-
 nvm i v10.13.0 安装指定版本
-
 nvm use --delete-prefix 10.13.0 切换到指定版本
+
+
+
+启动mongodb 
+mongod.exe --dbpath D:\mongodb\data\db
+mongo.exe --port 27017
 
