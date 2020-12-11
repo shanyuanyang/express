@@ -1,3 +1,10 @@
 start nginx
 
 redis-server redis.windows.conf
+
+nvm list 查看当前所有的node版本
+
+nvm i v10.13.0 安装指定版本
+
+nvm use --delete-prefix 10.13.0 切换到指定版本
+
